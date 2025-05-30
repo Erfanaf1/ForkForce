@@ -12,3 +12,7 @@ def power_if_prime(n):
         return n ** 2  
     else:
         return n
+    
+# defined by Abolfazl 
+def powerOfTwo(n):
+    return 2**n
