@@ -15,6 +15,24 @@ def power_if_prime(n):
     else:
         return n
 
+      
+def exp(x):
+    f = 1
+    if x < 0:
+        x = (-1) * x
+        f = -1
+    xs = 1
+    nm = 1
+    ex = 1
+    for i in range(1 , x * 18):
+        xs *= x
+        nm *= i
+        ex += (xs / nm)
+    if f == -1:
+        ex = 1 / ex
+    return ex
+
+
 
 
 # defined by Abolfazl 
@@ -33,3 +51,4 @@ def logarithm(n, base=10):
         current /= base
         result += 1
     return result
+
