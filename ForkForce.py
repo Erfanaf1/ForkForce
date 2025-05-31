@@ -15,6 +15,12 @@ def power_if_prime(n):
     else:
         return n
 
+# Defined by Mahdi Dolati Zadeh
+def IsEven(Number):
+    if Number % 2 == 0:
+        return True
+    else:
+        return False
       
 def exp(x):
     f = 1
@@ -51,4 +57,3 @@ def logarithm(n, base=10):
         current /= base
         result += 1
     return result
-
