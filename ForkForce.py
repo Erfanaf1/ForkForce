@@ -19,3 +19,13 @@ def power_if_prime(n):
         return n ** 2  
     else:
         return n
+# defined by ali,kamalpour
+def logarithm(n, base=10):
+    if n <= 0:
+        return None
+    result = 0
+    current = n
+    while current >= base:
+        current /= base
+        result += 1
+    return result
