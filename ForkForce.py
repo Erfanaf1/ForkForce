@@ -3,11 +3,6 @@
 #  بگیره و یک عملیات ریاضی به دلخواه روش انجام بده و مقدار نهایی رو برگردونه.
 
     
-# defined by Abolfazl 
-def powerOfTwo(n):
-    return 2**n
-
-
 # Defined by Asle Falah
 def power_if_prime(n):
   
@@ -19,6 +14,15 @@ def power_if_prime(n):
         return n ** 2  
     else:
         return n
+
+
+
+# defined by Abolfazl 
+def powerOfTwo(n):
+    return 2**n
+
+
+    
 # defined by ali,kamalpour
 def logarithm(n, base=10):
     if n <= 0:
