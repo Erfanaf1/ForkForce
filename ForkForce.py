@@ -120,3 +120,10 @@ def lengh(x):
         tedad+=1
     return tedad    
 
+
+# Defined by Amir Ansari
+def custom_math_operation(number):
+    if number % 2 == 0:
+        return number * 2
+    else:
+        return number * 3
