@@ -99,3 +99,11 @@ def factoriel(n):
 def power(a,n):
     a=a**n
     return a
+
+#defined by alireza adl gostar
+
+def is_odd(n):
+    if n%2!=0:
+        return True
+    else:
+        return False
