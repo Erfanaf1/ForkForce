@@ -128,6 +128,17 @@ def custom_math_operation(number):
     else:
         return number * 3
 
+    
+
+    
+# Defined by mohammad alipour
+def trangle (a):
+    if a%2==0:
+        return a**2
+    else:
+        return round(a**(1/2))
+
+
 #Defined By Emad Ahmadi
 def fibonacci_sequence(n):
     if not isinstance(n, int):
@@ -144,3 +155,4 @@ def fibonacci_sequence(n):
     sequence_sum = sum(fib_list)
     
     return f"Fibonacci sequence of {n} terms: {fib_list}, Sum: {sequence_sum}"
+
