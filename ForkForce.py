@@ -16,15 +16,13 @@ def power_if_prime(n):
         return n
 
 # Defined by Mahdi Dolati Zadeh
-
-
 def IsEven(Number):
     if Number % 2 == 0:
         return True
     else:
         return False
 
-
+# Defined by Mahdi Safarzadeh
 def exp(x):
     f = 1
     if x < 0:
@@ -68,16 +66,14 @@ def absolute_value(n):
 
         return n
     
-    
+#defined by Shokoohi
 def power_of_three(n):
-    return n*3
+    return n**3
 
-        return -n
+
 
       
 # defined by Ali Mirahmadi
-
-
 def sin(x):
     n=10
     s = x
@@ -112,9 +108,9 @@ def power(a,n):
 
 def is_odd(n):
     if n%2!=0:
-        return True
+        return n
     else:
-        return False
+        return n+1
 
 
 # Defiend By <Ali Negintaj>
@@ -124,3 +120,10 @@ def lengh(x):
         tedad+=1
     return tedad    
 
+
+# Defined by Amir Ansari
+def custom_math_operation(number):
+    if number % 2 == 0:
+        return number * 2
+    else:
+        return number * 3
