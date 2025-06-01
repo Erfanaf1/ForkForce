@@ -65,6 +65,13 @@ def absolute_value(n):
     if n >= 0:
         return n
     else:
+
+        return n
+    
+    
+def power_of_three(n):
+    return n*3
+
         return -n
 
       
@@ -100,6 +107,7 @@ def power(a,n):
     a=a**n
     return a
 
+
 #defined by alireza adl gostar
 
 def is_odd(n):
@@ -107,3 +115,12 @@ def is_odd(n):
         return True
     else:
         return False
+
+
+# Defiend By <Ali Negintaj>
+def lengh(x):
+    tedad = 0
+    for i in x:
+        tedad+=1
+    return tedad    
+
