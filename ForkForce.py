@@ -127,8 +127,38 @@ def custom_math_operation(number):
         return number * 2
     else:
         return number * 3
+
     
-#MohammadHossein Homayunfar
+#defined by MohammadHossein Homayunfar
 def doubleplus(n):
     n=j(n*2)+2
     return n
+
+
+    
+
+    
+# Defined by mohammad alipour
+def trangle (a):
+    if a%2==0:
+        return a**2
+    else:
+        return round(a**(1/2))
+
+
+#Defined By Emad Ahmadi
+def fibonacci_sequence(n):
+    if not isinstance(n, int):
+        return "Error: Input must be an integer"
+    if n <= 0:
+        return "Error: Input must be a positive integer"
+    
+    fib_list = [0, 1] if n > 1 else [0] if n == 1 else []
+    
+    for i in range(2, n):
+        next_fib = fib_list[i-1] + fib_list[i-2]
+        fib_list.append(next_fib)
+    
+    sequence_sum = sum(fib_list)
+    
+    return f"Fibonacci sequence of {n} terms: {fib_list}, Sum: {sequence_sum}"
