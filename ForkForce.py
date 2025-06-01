@@ -129,6 +129,13 @@ def custom_math_operation(number):
         return number * 3
 
     
+#defined by MohammadHossein Homayunfar
+def doubleplus(n):
+    n=j(n*2)+2
+    return n
+
+
+    
 
     
 # Defined by mohammad alipour
@@ -155,4 +162,3 @@ def fibonacci_sequence(n):
     sequence_sum = sum(fib_list)
     
     return f"Fibonacci sequence of {n} terms: {fib_list}, Sum: {sequence_sum}"
-
