@@ -65,6 +65,13 @@ def absolute_value(n):
     if n >= 0:
         return n
     else:
+
+        return n
+    
+    
+def power_of_three(n):
+    return n*3
+
         return -n
 
       
@@ -107,3 +114,4 @@ def lengh(x):
     for i in x:
         tedad+=1
     return tedad    
+
