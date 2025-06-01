@@ -99,3 +99,11 @@ def factoriel(n):
 def power(a,n):
     a=a**n
     return a
+
+
+# Defiend By <Ali Negintaj>
+def lengh(x):
+    tedad = 0
+    for i in x:
+        tedad+=1
+    return tedad    
