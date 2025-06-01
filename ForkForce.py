@@ -12,3 +12,7 @@ def power_if_prime(n):
         return n ** 2  
     else:
         return n
+    
+    
+def power_of_three(n):
+    return n*3
