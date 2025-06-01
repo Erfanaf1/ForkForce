@@ -108,6 +108,15 @@ def power(a,n):
     return a
 
 
+#defined by alireza adl gostar
+
+def is_odd(n):
+    if n%2!=0:
+        return True
+    else:
+        return False
+
+
 # Defiend By <Ali Negintaj>
 def lengh(x):
     tedad = 0
