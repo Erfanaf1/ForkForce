@@ -127,3 +127,8 @@ def custom_math_operation(number):
         return number * 2
     else:
         return number * 3
+    
+#MohammadHossein Homayunfar
+def doubleplus(n):
+    n=j(n*2)+2
+    return n
