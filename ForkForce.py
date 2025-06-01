@@ -127,3 +127,12 @@ def custom_math_operation(number):
         return number * 2
     else:
         return number * 3
+    
+
+    # Defined by mohammad alipour
+# Defined by mohammad alipour
+def trangle (a):
+    if a%2==0:
+        return a**2
+    else:
+        return round(a**(1/2))
