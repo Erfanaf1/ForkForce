@@ -92,3 +92,10 @@ def factoriel(n):
     for i in range(1,n+1):
         s=s*i
     return s
+
+
+# defiend by Ilia parkan
+
+def power(a,n):
+    a=a**n
+    return a
