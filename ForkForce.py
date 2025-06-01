@@ -58,6 +58,16 @@ def logarithm(n, base=10):
         result += 1
     return result
 
+
+
+# Defined by ali ebrahimi
+def absolute_value(n):
+    if n >= 0:
+        return n
+    else:
+        return -n
+
+      
 # defined by Ali Mirahmadi
 
 
