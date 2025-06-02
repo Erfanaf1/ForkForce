@@ -102,8 +102,8 @@ def factoriel(n):
 
 
 # defiend by Ilia parkan
-def power(a,n):
-    a=a**n
+def power(a):
+    a=a**2
     return a
 
 
@@ -118,7 +118,7 @@ def is_odd(n):
 # Defiend By <Ali Negintaj>
 def lengh(x):
     tedad = 0
-    for i in x:
+    for i in str(x):
         tedad+=1
     return tedad    
 
@@ -160,7 +160,7 @@ def fibonacci_sequence(n):
     
     sequence_sum = sum(fib_list)
     
-    return f"Fibonacci sequence of {n} terms: {fib_list}, Sum: {sequence_sum}"
+    return sequence_sum
 
 
 
@@ -178,3 +178,59 @@ def A_B(n):
 
         return n
     
+
+
+
+def main():
+
+    while True :
+        try :
+            
+            print("\n<< Hi... Im gonna get a number from You and do some math on It...>>")
+            number = int(input("Enter a number between 1 - 10 :  "))
+            if  not(1 <= number <= 10) :
+                print("\n!!! Invalid Number. Try Again !!!")
+                continue
+
+        except :
+            print("\n!!! Enter a number !!!")
+            continue
+        
+
+        Defs = [
+    power_if_prime, IsEven, exp, powerOfTwo, logarithm,
+    absolute_value, power_of_three, sin, factoriel, power, is_odd,
+    lengh, custom_math_operation, doubleplus, trangle, fibonacci_sequence,
+    idk, A_B ]
+        
+
+        final_number = 0
+        for Def in Defs :
+            final_number += round(Def(number) , 2)
+
+
+
+        print(f"\nYour final number is : {final_number}\n")
+        
+        while True:
+            try :
+
+                Req = int(input("Do you want to try Another One? \n (1 for continue  and  2 for Exit) \n"))
+                if Req == 2 :
+                    return
+                
+                elif Req == 1 :
+                    break
+
+                else:
+                    print("\n!! Enter a valid number !!\n")
+                    continue
+
+            except :
+                print("\n!! Enter a number !!\n")
+                continue
+
+    
+
+
+main()
