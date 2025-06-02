@@ -1,21 +1,7 @@
 # اگر این کامنت رو میبینی یعنی ریپازیتوری رو کلون کردی روی ادیتورت.
 #  n حالا این زیر 👇🏻 یک تابع بنویس که یک عدد ورودی
 #  بگیره و یک عملیات ریاضی به دلخواه روش انجام بده و مقدار نهایی رو برگردونه.
-#MohammadmahdiRezapour
-def A_B(n):
-    if n >= 0:
-        return n
-    else:
 
-        return n
-    
-#defined by Shokoohi
-def power_of_three(n):
-    return n**4
-
-
-def power_of_five(n):
-    return n**5
 
 
 # Defined by Asle Falah
@@ -30,12 +16,14 @@ def power_if_prime(n):
     else:
         return n
 
+
 # Defined by Mahdi Dolati Zadeh
 def IsEven(Number):
     if Number % 2 == 0:
-        return True
+        return Number
     else:
-        return False
+        return Number + 1
+
 
 # Defined by Mahdi Safarzadeh
 def exp(x):
@@ -79,8 +67,9 @@ def absolute_value(n):
         return n
     else:
 
-        return n
+        return -n
     
+
 #defined by Shokoohi
 def power_of_three(n):
     return n**3
@@ -113,14 +102,12 @@ def factoriel(n):
 
 
 # defiend by Ilia parkan
-
 def power(a,n):
     a=a**n
     return a
 
 
 #defined by alireza adl gostar
-
 def is_odd(n):
     if n%2!=0:
         return n
@@ -146,11 +133,8 @@ def custom_math_operation(number):
     
 #defined by MohammadHossein Homayunfar
 def doubleplus(n):
-    n=j(n*2)+2
+    n=(n*2)+2
     return n
-
-
-    
 
     
 # Defined by mohammad alipour
@@ -183,3 +167,14 @@ def fibonacci_sequence(n):
 #defined by moaref poor 
 def idk(n):
     return n + 56
+
+
+
+#defined by MohammadmahdiRezapour
+def A_B(n):
+    if n >= 0:
+        return -n
+    else:
+
+        return n
+    
