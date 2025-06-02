@@ -14,6 +14,10 @@ def power_of_three(n):
     return n**4
 
 
+def power_of_five(n):
+    return n**5
+
+
 # Defined by Asle Falah
 def power_if_prime(n):
 
