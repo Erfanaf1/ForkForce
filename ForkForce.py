@@ -177,3 +177,9 @@ def fibonacci_sequence(n):
     sequence_sum = sum(fib_list)
     
     return f"Fibonacci sequence of {n} terms: {fib_list}, Sum: {sequence_sum}"
+
+
+
+#defined by moaref poor 
+def idk(n):
+    return n + 56
